@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Note.IDAL\Note.IDAL.csproj" />
+    <ProjectReference Include="..\Note.Model\Note.Model.csproj" />
+  </ItemGroup>
+
 </Project>
